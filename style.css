@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    background-color: #f9fafb;
+    color: #111827;
+}
+
+.monochrome-effect {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.monochrome-effect:hover {
+    filter: grayscale(0%);
+}
+
+.certificate-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
